@@ -199,6 +199,8 @@ narrow window:  ~/dev/app  ⎇ main  ◆ Fable 5
 
 主題就只是一個指定 `VL_BG_*` / `VL_FG_*` 的 `.conf` 檔——複製一份、改顏色、
 在 `coralline.conf` 裡改 source 你的版本即可。歡迎發 PR 貢獻新主題。
+wizard 會自動掃描 `themes/*.conf` 與 `themes/best-themes/*.conf` 這類巢狀集合，
+新增主題檔時不需要修改 `configure.sh`。
 
 > **提示：** 預覽圖是由 [`tools/render-screenshots.py`](./tools/render-screenshots.py)
 > 直接執行真實腳本產生的——新增主題後把名稱加進該檔的 `THEMES` 清單再跑一次，
